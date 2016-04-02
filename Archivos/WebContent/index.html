@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="CSS/applicationResource.css" type="text/css" rel="stylesheet">
+<link href="CSS/Css2.css" type="text/css" rel="stylesheet">
+<script src="funcionesJs/jquery-1.11.3.min.js"></script>
+<script src="funcionesJs/appendFiles.js"></script>
+<script src="funcionesJs/fileUploadAjax.js"></script>
+<script src="funcionesJs/sendParams.js"></script>
+<script type="text/javascript">
+function Confirmar() {
+	//Mensaje a mostrar
+	var mensaje = confirm("Est\u00E1 seguro que desea salir?");
+	//Detectamos si el usuario acepto el mensaje
+	if (mensaje) {
+	javascript:window.close();
+	}
+	//Detectamos si el usuario denegó el mensaje
+	else {
+	return false;
+	}
+	}
+</script>
+<title>Subir Adjuntos</title>
+</head>
+<body class="bonita-body">
+	<div id="footerpusher">
+		<div id="main">
+			<div id="static_application">
+					<div id="bonita_process_label" class="bonita_process_label">
+						<div class="gwt-HTML">Documentos</div>
+					</div>
+					<div id="bonita-banneraltbas"></div>
+					<div id="bonita_form">
+						<div>
+							<div id="bonita_form_page_label" class="bonita_form_page_label">
+								<div class="gwt-HTML">Subir Adjuntos</div>
+							</div>
+							
+							<div class="bonita_form_container" overflow:auto;>
+									<form  method="post"  enctype="multipart/form-data" >
+										<div id="contenido_UploadFiles">
+											<div class="cls_label">
+												Documentos <br />
+												<button class="cls_add_btn">AÑADIR</button>
+												<input class="cls_save_btn" type="button" value="GUARDAR">
+												<input class="cls_exit_btn" type="button" onclick="Confirmar()" value="SALIR" />
+												<br />
+												<br />
+											</div>
+										</div>
+									</form>
+							</div>
+						</br>
+						</br>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+	<center><td width="500%"><span id="footer" >Universidad Técnica de Ambato</span></td></center>
+	</div>
+</body>
+</html>

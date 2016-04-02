@@ -1,0 +1,111 @@
+@charset "utf-8";
+div#bonita-banneraltbas {
+	height: 35px;
+	width: 100%;
+	background-color: #b20706;
+	background: -moz-linear-gradient(top, #CD0807 0%, #B20706 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #CD0807), color-stop(100%, #B20706)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #CD0807 0%,#B20706 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,	#CD0807 0%, #B20706 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,	#CD0807 0%,#B20706 100%); /* IE10+ */
+	background: linear-gradient(to bottom,	#CD0807 0%, #B20706 100%); /* W3C */
+	-pie-background: linear-gradient(#CD0807 0%, #B20706 100%) #CD0807;
+	behavior: url(../../css/PIE.htc);
+}
+
+.bonita_form_container{
+   position: absolute; 
+   left: 100px;
+}
+
+.bonita_process_label {
+	height: 50px;
+	line-height: 50px;
+	margin-left: 250px;
+	position: relative;
+	text-align: center;
+	margin-right: 250px;
+	font-size: 184.6153846153846%;
+	color: #282626;
+}
+
+div#bonita_form {
+	margin: 0;
+	border-width: 0;
+	padding-right: 0;
+	min-height: 200px;
+	padding-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0;
+	padding-top: 30px;
+
+}
+
+
+/* default page template style */
+div#bonita-object-area-top {
+	margin-right: auto;
+	height: 0px;
+	width: 500px;
+	margin-left: auto;
+	margin-top: 10px;
+}
+
+div#bonita-object-area-middle {
+	width: 500px;
+	background-color: #ececec;
+	min-height: 40px;
+	padding-bottom: 4px;
+	margin-left: auto;
+	position: relative;
+	margin-right: auto;
+	padding-top: 4px;
+}
+
+div#bonita-object-area-bottom {
+	margin-right: auto;
+	height: 0px;
+	width: 500px;
+	margin-left: auto;
+	margin-bottom: 10px;
+}
+
+div#bonita-object-area-form {
+	height: auto;
+	width: 188px;
+	margin-left: 4px;
+	float: left;
+}
+
+div#bonita-object-area-to {
+	float: left;
+	height: auto;
+	width: 188px;
+	margin-left: 4px;
+}
+
+div#bonita-object-area-priority {
+	height: auto;
+	text-align: right;
+	margin-right: 4px;
+}
+
+div#bonita-object-area-description {
+	margin-left: 4px;
+	margin-top: 4px;
+	text-align: left;
+	clear: both;
+	padding-top: 4px;
+}
+
+.bonita_form_page_label {
+	font-weight: bold;
+	padding: 0;
+	height: auto;
+	margin: 0 0 20px 0;
+	display: block;
+	text-align: center;
+	font-size: 138.46153846153845%;
+	color: #282626;
+}

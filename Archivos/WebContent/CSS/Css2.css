@@ -1,0 +1,121 @@
+@CHARSET "ISO-8859-1";
+
+html,body {
+	height: 100%;
+		}
+* {margin:0;padding:0;}
+#footerpusher{
+	min-height: 100%;
+	overflow:scroll;
+}
+.classLink{
+	position:relative;
+	 clear:both;
+}
+
+#main {
+overflow: auto;
+padding-bottom: 35px;
+}
+
+#footer, .footer {
+  font-family: Signika-Semibold, sans-serif, sans-serif;
+  position: static;
+  margin-top: -50px; 
+  height: 11px;
+  clear: both;
+  font-size: small;
+  text-align: center;
+  color: #ffffff;
+  background: #313433;
+  z-index: auto;
+   padding: 12px 0;
+	font-style: normal;
+}
+
+body:before {
+content:"";
+height:100%;
+float:left;
+width:0;
+margin-top:-32767px;
+}
+
+.cls_label, .cls_label {
+	box-sizing: border-box;
+	color: #333333;
+	font-size: 13px;
+	float: left;
+	margin-bottom: 8px;
+	margin-top: 8px;
+	overflow: hidden;
+	white-space: normal;
+}
+
+a.cls_download_link {
+	color: #52574D;
+	float: left;
+	display: block;
+	margin-top: 3px;
+	outline: medium none;
+	text-decoration: underline;
+}
+
+a.cls_download_link:visited {
+	color: Blue;
+	text-decoration: underline;
+}
+
+a.cls_download_link:hover {
+	color: black;
+	float: left;
+	text-decoration: underline;
+}
+
+.cls_upload_btn, .remove_field {
+	color: #333333;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	left: 100px;
+	text-decoration: underline;
+	text-align: left;
+	float:left; 
+	}
+
+.cls_add_btn, .cls_save_btn, .cls_exit_btn, .cls_download_link_Zip  {
+	-moz-user-select: none;
+	background: rgba(0, 0, 0, 0)
+		linear-gradient(to bottom, #3d3d3d 0%, #272727 100%) repeat scroll 0 0;
+	border: 1px solid #b9b9b9;
+	border-radius: 3px;
+	box-shadow: 2px 2px 2px #d8d8d8;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+	font-family: "Signika-Semibold";
+	font-size: 75%;
+	line-height: 25px !important;
+	min-width: 90px;
+	opacity: 1;
+	outline-color: #f9f9f9;
+	padding: 0 2px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 0 0 transparent, -1px -1px 0 transparent, 1px -1px 0
+		transparent, -1px 1px 0 transparent, 1px 1px 0 transparent;
+	text-transform: uppercase;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+div.cls_form_entry{ 
+   	border: 1px dashed #660000;
+   	width: 100%;
+   	float:left;
+   	clear: both;
+	margin-bottom: 5px;
+	overflow: auto;
+	text-align: left;
+}
